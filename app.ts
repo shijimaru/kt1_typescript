@@ -30,15 +30,15 @@ class User{
     } 
 
     eq(user: User) { 
-        return this.login === user.login 
+        return this.grade === user.grade 
     }
 
     lt(user: User) { 
-        return this.login > user.login 
+        return this.grade > user.grade 
     }
 
     gt(user: User) { 
-        return this.login < user.login 
+        return this.grade < user.grade 
     }
 } 
  
